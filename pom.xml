@@ -7,12 +7,7 @@
   <dependencies>
   
 
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+
     
     
      <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
@@ -29,13 +24,6 @@
             <version>0.2.7</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
-        <dependency>
-            <groupId>net.sourceforge.cobertura</groupId>
-            <artifactId>cobertura</artifactId>
-            <version>2.1.1</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
         <dependency>
@@ -102,12 +90,12 @@
             <scope>test</scope>
         </dependency>
         
-		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-<dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>3.4.0</version>
-</dependency>
+            <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>3.4.0</version>
+    </dependency>
 		
 		
 		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
@@ -116,8 +104,49 @@
     <artifactId>log4j</artifactId>
     <version>1.2.17</version>
 </dependency>
+
+
+
+      <dependency>
+          <groupId>info.cukes</groupId>
+          <artifactId>cucumber-java</artifactId>
+          <version>1.2.0</version>
+          <scope>test</scope>
+      </dependency>
+      <dependency>
+          <groupId>info.cukes</groupId>
+          <artifactId>cucumber-junit</artifactId>
+          <version>1.2.0</version>
+          <scope>test</scope>
+      </dependency>
+
+      <dependency>
+          <groupId>info.cukes</groupId>
+          <artifactId>cucumber-jvm-deps</artifactId>
+          <scope>test</scope>
+          <version>1.0.3</version>
+      </dependency>
+
+
+      <dependency>
+          <groupId>info.cukes</groupId>
+          <artifactId>gherkin</artifactId>
+          <version>2.12.1</version>
+      </dependency>
+
+
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.11</version>
+          <scope>test</scope>
+      </dependency>
   
   </dependencies>
-  
-  
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+    </properties>
+
+
 </project>
